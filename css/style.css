@@ -209,6 +209,11 @@ text-align: center;
     gap: 8px;
     margin-bottom: 1rem;
 }
+.idearing {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
 
 .job__name {
     color:var(--color-primary);
