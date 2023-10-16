@@ -192,7 +192,7 @@ button:focus {
 /* About */
 .majors {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 1rem;
   margin: 2.5rem 0;
 }
@@ -226,19 +226,7 @@ button:focus {
 .jobs {
   text-align: start;
 }
-.job__img {
-    margin: 0 30px 0 0;
-}
-.seoil {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
-.idearing {
-    width: 100px;
-    height: 50px;
-    object-fit: cover;
-}
+
 .job {
   display: flex;
   align-items: center;
@@ -247,7 +235,6 @@ button:focus {
 }
 
 .job__name {
-    font-size: 1.25em;
   color: var(--color-primary);
 }
 
@@ -549,7 +536,6 @@ button:focus {
   }
 
   .major {
-    flex: 1;
     max-width: 25rem;
   }
 
